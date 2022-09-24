@@ -19,7 +19,7 @@ $products = [
       ]
   ];
   
-  $response = $client->delete('https://dummyjson.com/products/1');
+  $response = $client->delete('https://dummyjson.com/products/100');
   $code = $response->getStatusCode();
   $body = $response->getBody();
   $product = json_decode($body);

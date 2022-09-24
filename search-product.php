@@ -10,17 +10,23 @@ $client = new Client([
 
 ?> 
 
-<html>
-        <title>Search a Product</title>
+<!DOCTYPE html>
         <head>
+        <title>Search a Product</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         </head>
         <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-9"><h1>Search Products</h1></div>
+        </div>
+    </div>
+
         <div class="container text-center mt-5">
         <form action="search-product.php" method="POST">
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Search a product" name="search_product">
-                <button class="btn btn-outline-secondary" type="submit" id="search">Search<i class="fas fa-search"></i</button>
+                <button class="btn btn-outline-primary" type="submit" id="search">Search</button>
             </div>
         </form>
                 </div>  

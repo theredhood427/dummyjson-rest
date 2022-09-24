@@ -12,10 +12,10 @@ $products = [
 	'json' => ['id' => '31',
   'title' => 'Xiaomi Mi Mix 3',
   'description' => 'Xiaomi Mi Mix 3 was good phone in 2018',
-  'price' => '500',
+  'price' => '$500',
   'brand' => 'Xiaomi',
   'category' => 'smartphones',
-  'thumbnail' => 'thumbnail.jpg'
+  'thumbnail' => 'images/phone.jpg'
 	]
 ];
 
